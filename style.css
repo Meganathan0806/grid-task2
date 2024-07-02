@@ -1,0 +1,39 @@
+.container1{
+    display: grid;
+    grid-template-columns: auto auto  ;
+    grid-template-rows: auto auto  ;
+    height: 100vh;
+   
+    flex: 1;
+ 
+}
+.num{
+    background-color: rgba(0, 0, 0, 0.47);
+    color: white;
+    font-size: 40px;
+    border: solid white 1px;
+    text-align: center;
+    align-content: center;
+
+}
+.container2{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: auto auto auto;
+    height: 100vh;
+    flex: 1;
+
+}
+.col{
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    border: solid white 1px;
+    text-align: center;
+    font-size: 40px;
+    align-content: center;
+    
+    
+}
+.colitems{
+    display: flex;
+}
